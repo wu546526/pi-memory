@@ -1,0 +1,1 @@
+{"version":3,"file":"chunking.d.ts","sourceRoot":"","sources":["../../src/config/chunking.ts"],"names":[],"mappings":"AAQA,MAAM,MAAM,cAAc,GAAG;IAC3B,+DAA+D;IAC/D,QAAQ,EAAE,MAAM,CAAC;CAClB,CAAC;AAQF,wBAAgB,kBAAkB,CAAC,GAAG,GAAE,MAAM,CAAC,UAAwB,GAAG,cAAc,CAWvF;AAED,OAAO,EACL,2BAA2B,EAC3B,uBAAuB,GACxB,MAAM,0BAA0B,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"stats.d.ts","sourceRoot":"","sources":["../../../src/sidecar/server/stats.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,eAAe,EAAE,MAAM,gBAAgB,CAAC;AAGtD,MAAM,MAAM,YAAY,GAAG;IACzB,MAAM,EAAE,MAAM,CAAC;CAChB,CAAC;AAEF,wBAAgB,WAAW,CAAC,GAAG,EAAE,YAAY,GAAG,OAAO,CAAC,eAAe,EAAE;IAAE,IAAI,EAAE,UAAU,CAAA;CAAE,CAAC,CAe7F"}

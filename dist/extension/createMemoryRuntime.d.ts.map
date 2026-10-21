@@ -1,0 +1,1 @@
+{"version":3,"file":"createMemoryRuntime.d.ts","sourceRoot":"","sources":["../../src/extension/createMemoryRuntime.ts"],"names":[],"mappings":"AA8BA,OAAO,KAAK,EAAE,0BAA0B,EAAE,aAAa,EAAiB,MAAM,YAAY,CAAC;AA+N3F,wBAAgB,mBAAmB,CAAC,IAAI,EAAE,0BAA0B,GAAG,aAAa,CAEnF;AAED,YAAY,EAAE,0BAA0B,EAAE,aAAa,EAAE,aAAa,EAAE,MAAM,YAAY,CAAC"}

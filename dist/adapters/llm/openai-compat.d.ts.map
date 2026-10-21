@@ -1,0 +1,1 @@
+{"version":3,"file":"openai-compat.d.ts","sourceRoot":"","sources":["../../../src/adapters/llm/openai-compat.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,SAAS,EAAE,qBAAqB,EAAE,MAAM,YAAY,CAAC;AAOnE,wBAAsB,uBAAuB,CAAC,OAAO,EAAE,MAAM,GAAG,OAAO,CAAC,OAAO,CAAC,CAQ/E;AAED,wBAAgB,2BAA2B,CAAC,GAAG,EAAE,qBAAqB,GAAG,SAAS,CA0BjF"}

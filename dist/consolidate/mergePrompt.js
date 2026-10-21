@@ -1,0 +1,41 @@
+import { groupBy } from "es-toolkit";
+import { formatEntryLine, formatSectionHeader } from "../store/markdown/format.js";
+import { MEMORY_SECTIONS } from "../store/types.js";
+export function formatEntriesForConsolidation(entries) {
+    const grouped = groupBy(entries, (entry) => entry.section);
+    const lines = [];
+    for (const section of MEMORY_SECTIONS) {
+        const sectionEntries = grouped[section] ?? [];
+        if (sectionEntries.length === 0)
+            continue;
+        lines.push(formatSectionHeader(section), "");
+        for (const entry of sectionEntries) {
+            lines.push(formatEntryLine({
+                id: entry.id,
+                section: entry.section,
+                content: entry.content,
+                userAuthored: entry.userAuthored,
+                timestamp: entry.timestamp,
+            }));
+        }
+        lines.push("");
+    }
+    return lines.join("\n").trim();
+}
+export function buildConsolidateMergePrompt(entriesMarkdown) {
+    return `You are consolidating a durable MEMORY.md note file for a coding agent.
+
+Merge the entries below:
+- Remove exact duplicates and near-duplicates (keep the clearer wording).
+- Remove completed or obsolete TODO items.
+- Superseded semantics: when a newer entry states X is done/decided/executed, rewrite older entries' stale tails about X (e.g. "X pending/未拍板/待拍板") to reflect the newer state; keep still-valid parts, stay concise.
+- NEVER remove or rewrite lines marked [user] (user-authored).
+- Keep Preferences, Conventions, Findings, and Todos factual and concise.
+- Output ONLY valid markdown with sections: ## Preferences, ## Conventions, ## Findings, ## Todos
+- Each item is a bullet line using the same format as input (with <!-- id:... --> metadata when present).
+
+<memory>
+${entriesMarkdown}
+</memory>`;
+}
+//# sourceMappingURL=mergePrompt.js.map

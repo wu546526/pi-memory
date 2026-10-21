@@ -1,0 +1,1 @@
+{"version":3,"file":"factory.d.ts","sourceRoot":"","sources":["../../../src/adapters/embed/factory.ts"],"names":[],"mappings":"AAKA,OAAO,KAAK,EAAE,QAAQ,EAAE,MAAM,YAAY,CAAC;AAI3C,wBAAgB,cAAc,CAAC,GAAG,4CAAoB,GAAG,QAAQ,CA4BhE;AAED,wBAAgB,WAAW,IAAI,QAAQ,CAGtC;AAED,0BAA0B;AAC1B,wBAAgB,qBAAqB,IAAI,IAAI,CAE5C;AAED,YAAY,EAAE,QAAQ,EAAE,MAAM,YAAY,CAAC"}

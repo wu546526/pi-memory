@@ -1,0 +1,1 @@
+{"version":3,"file":"sessionReader.d.ts","sourceRoot":"","sources":["../../src/shutdown/sessionReader.ts"],"names":[],"mappings":"AAqBA,wBAAsB,2BAA2B,CAAC,WAAW,EAAE,MAAM,GAAG,OAAO,CAAC,MAAM,GAAG,IAAI,CAAC,CAW7F;AAED,wBAAsB,2BAA2B,CAAC,WAAW,EAAE,MAAM,GAAG,OAAO,CAAC;IAC9E,YAAY,EAAE,MAAM,CAAC;IACrB,OAAO,EAAE,MAAM,CAAC;CACjB,GAAG,IAAI,CAAC,CAOR"}

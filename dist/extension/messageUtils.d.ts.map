@@ -1,0 +1,1 @@
+{"version":3,"file":"messageUtils.d.ts","sourceRoot":"","sources":["../../src/extension/messageUtils.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,+BAA+B,CAAC;AAElE,wBAAgB,kBAAkB,CAAC,OAAO,EAAE,YAAY,GAAG,MAAM,GAAG,IAAI,CAOvE;AAED,wBAAgB,kBAAkB,CAAC,OAAO,EAAE,YAAY,EAAE,IAAI,EAAE,MAAM,GAAG,YAAY,CAGpF;AAED,wBAAgB,wBAAwB,CAAC,QAAQ,EAAE,YAAY,EAAE,GAAG,MAAM,CAEzE"}

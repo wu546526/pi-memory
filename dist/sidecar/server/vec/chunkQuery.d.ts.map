@@ -1,0 +1,1 @@
+{"version":3,"file":"chunkQuery.d.ts","sourceRoot":"","sources":["../../../../src/sidecar/server/vec/chunkQuery.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,mBAAmB,CAAC;AAOrD,KAAK,WAAW,GAAG,OAAO,gBAAgB,EAAE,QAAQ,CAAC;AAUrD,wBAAsB,WAAW,CAC/B,EAAE,EAAE,WAAW,EACf,SAAS,EAAE,MAAM,EACjB,IAAI,CAAC,EAAE,MAAM,GACZ,OAAO,CAAC,WAAW,EAAE,CAAC,CA2CxB"}

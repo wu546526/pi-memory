@@ -1,0 +1,3 @@
+export declare const DUAL_PURPOSE_SUMMARY_TEMPLATE = "## Session Context\n<!-- Goal / Progress / Next Actions / key file changes for continuing THIS session -->\n\n## Memory Export\n<!-- Cross-session durable facts only; omit this entire section if nothing worth keeping -->\n\n### Preferences\n\n### Conventions\n\n### Findings\n\n### Todos\n";
+export declare function buildCompactionSummaryPrompt(conversationText: string, previousSummary?: string): string;
+//# sourceMappingURL=summaryPrompt.d.ts.map

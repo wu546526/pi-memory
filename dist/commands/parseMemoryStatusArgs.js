@@ -1,0 +1,15 @@
+export function parseMemoryStatusArgs(args) {
+    const text = (Array.isArray(args) ? args.join(" ") : args).trim().toLowerCase();
+    if (!text)
+        return "toggle";
+    if (text === "hide" || text === "close" || text === "off" || text === "dismiss")
+        return "hide";
+    if (text === "refresh" || text === "reload")
+        return "refresh";
+    if (text === "expand" || text === "open" || text === "show")
+        return "expand";
+    if (text === "collapse" || text === "fold" || text === "min")
+        return "collapse";
+    return "toggle";
+}
+//# sourceMappingURL=parseMemoryStatusArgs.js.map
